@@ -19,7 +19,7 @@ A simple python goganime scrapper
 <br />
 
 <p> Get link to naruto episode 10</p>
-<p> Here, "naruto" is the exact the anime title/link in Gogoanime. Other anime might have complicated titles, so first use gogo.search() to get exact title</p>
+<p> Here, "naruto" is the exact anime title/link in Gogoanime. Other anime might have complicated titles, so first use gogo.search() to get exact title</p>
 
 ```link = gogo.getEpisode("naruto", 10)```
 
