@@ -33,3 +33,11 @@ A simple python goganime scrapper
 <p> This function uses selenium with chrome in headless mode, so make sure to have chromedrivers installed and added to system path </p>
 
 ```latest_episode = gogo.getLatestEpisode("naruto")```
+
+<br />
+<br />
+<br />
+
+All these functions also take an optional `base_url` parameter, which could be used to scrap from a different Gogoanime server.
+
+Users could also directly change `gogo.BASE_URL` if you want to globally change the server being used
