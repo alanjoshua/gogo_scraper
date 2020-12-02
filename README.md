@@ -1,5 +1,5 @@
 # gogo_scrapper
-A simple python goganime scrapper
+A simple python goganime scraper
 
 
 ## Usage
