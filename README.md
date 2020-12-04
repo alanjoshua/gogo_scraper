@@ -30,8 +30,6 @@ A simple python goganime scraper
 <p> Get latest episode from naruto </p>
 <p> Returns a dictionary {ep_num: 220, link: ...} </p>
 
-<p> This function uses selenium with chrome in headless mode, so make sure to have chromedriver installed and added to system path </p>
-
 ```latest_episode = gogo.getLatestEpisode("naruto")```
 
 <br />
