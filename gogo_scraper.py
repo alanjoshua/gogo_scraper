@@ -112,6 +112,3 @@ def search(anime, base_url=BASE_URL):
         res.append(info)
 
     return res
-
-
-print(getLatestEpisode("naruto"))
