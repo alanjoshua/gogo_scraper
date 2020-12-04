@@ -1,13 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-from selenium import webdriver
 import re
 
-
-options = webdriver.ChromeOptions()
-options.add_argument("--disable-extensions")
-options.add_argument("--disable-gpu")
-options.add_argument("--headless")
 
 BASE_URL = 'https://gogoanime.so/'  # Change this if this link to gogoanime goes down
 
@@ -29,7 +23,6 @@ def _validifyName_(name):
     return newName
 
 
-# Uses selenium with chrome in Headless mode to get last Episode, so make sure
 def getLatestEpisode(anime, base_url=BASE_URL):
     """
 

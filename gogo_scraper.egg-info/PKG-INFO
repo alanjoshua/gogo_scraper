@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: gogo-scraper
-Version: 1.0.4
+Version: 1.0.5
 Summary: A simple web scraper to get information about anime from Gogoanime
 Home-page: https://github.com/alanjoshua/gogo_scraper
 Author: Alan Aneeth Jegaraj
@@ -10,6 +10,12 @@ Project-URL: Source code, https://github.com/alanjoshua/gogo_scraper
 Description: # gogo_scrapper
         A simple python goganime scraper
         
+        ## Installation
+        <br />
+        
+        install gogo_scraper using `pip install gogo_scraper`
+        
+        <br />
         
         ## Usage
         <br />
