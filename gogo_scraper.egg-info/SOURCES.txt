@@ -1,0 +1,8 @@
+README.md
+gogo_scraper.py
+setup.cfg
+setup.py
+gogo_scraper.egg-info/PKG-INFO
+gogo_scraper.egg-info/SOURCES.txt
+gogo_scraper.egg-info/dependency_links.txt
+gogo_scraper.egg-info/top_level.txt
