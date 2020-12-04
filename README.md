@@ -1,6 +1,12 @@
 # gogo_scrapper
 A simple python goganime scraper
 
+## Installation
+<br />
+
+install gogo_scraper using `pip install gogo_scraper`
+
+<br />
 
 ## Usage
 <br />
