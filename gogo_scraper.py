@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-
 BASE_URL = 'https://gogoanime.so/'  # Change this if this link to gogoanime goes down
 
 
@@ -71,9 +70,13 @@ def getEpisode(anime, re_ep, base_url=BASE_URL):
     master_page = BeautifulSoup(page_response.content, "html.parser")
 
     try:
-        master_page.find('h1', class_='entry-title').text
-        return None
+        text = master_page.find('h1', class_='entry-title').text
     except:
+        return episodeUrl
+
+    if text == '404':
+        return None
+    else:
         return episodeUrl
 
 
@@ -88,7 +91,7 @@ def search(anime, base_url=BASE_URL):
     """
 
     anime = _validifyName_(anime)
-    searchUrl = base_url + '/search.html?keyword='+anime
+    searchUrl = base_url + '/search.html?keyword=' + anime
 
     page_response = requests.get(searchUrl)
     page = BeautifulSoup(page_response.content, "html.parser")

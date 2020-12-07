@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='gogo_scraper',
-    version='1.0.5',
+    version='1.0.6',
     packages=[''],
     url='https://github.com/alanjoshua/gogo_scraper',
     license='MIT',
