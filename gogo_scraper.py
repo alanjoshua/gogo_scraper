@@ -96,7 +96,7 @@ def search(anime, base_url=BASE_URL):
     page_response = requests.get(searchUrl)
     page = BeautifulSoup(page_response.content, "html.parser")
 
-    items = page.find('div', class_='last_episodes').findAll('li')
+    items = page.find('ul', class_='items').findAll('li')
     res = []
 
     for item in items:
@@ -108,3 +108,4 @@ def search(anime, base_url=BASE_URL):
         res.append(info)
 
     return res
+
